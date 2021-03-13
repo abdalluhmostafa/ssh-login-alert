@@ -8,4 +8,4 @@
 ### 2021 	
 # Please change email to your email inside alert file 
 #######################################################################################
-cat alert > /etc/profile.d/login.sh
+cat alert.txt > /etc/profile.d/login.sh
