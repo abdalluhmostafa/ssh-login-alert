@@ -1,0 +1,1 @@
+echo -e "ALERT - Root Shell Access on hostname:"`hostname` "\nTime: " `date` "\nUser: "`who` | mail -s "Alert: Root Access from `who | cut -d'(' -f2 | cut -d')' -f1` Hostname:  `hostname`"  your@company.com
